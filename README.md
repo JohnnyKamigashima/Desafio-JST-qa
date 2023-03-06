@@ -16,6 +16,8 @@ https://www.linkedin.com/in/kamigashima/
 ### Descrição
 
 - Este teste tem como objeto a verificação da funcionalidade de adição de itens ao carrinho e compra dos produtos.
+- Alguns passos de execução do teste são propositalmente diferentes de outros testes semelhantes para exercitar a funcionalidade de selecionar um produto para por no carrinho através da página do produto e através da página de listagem de produtos.
+- Os testes foram baseados nos 3 cenários dados no desafio, e aplicados para cada um dos 3 usuários disponíveis no sistema. O quarto usuário “locked_out_user” não permite login portanto não foi feito nenhum teste utilizando esta credencial.
 
 ### Prioridade
 
