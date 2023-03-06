@@ -9,9 +9,9 @@ describe('Eu como Heroi quero ordenar os valores do menor para o maior e que sej
         let quantidadeProdutoCarrinho = 2;
         let mensagemAceitacao = 'Thank you for your order!';
 
-        before(function () {
+        beforeEach(function () {
             cy.visit('/', { timeout: 10000 });
-            cy.fixture('credenciaisTeste').then((credencial) => {
+            cy.fixture('credenciaisTeste').then(function (credencial) {
                 this.credencial = credencial;
             });
         });

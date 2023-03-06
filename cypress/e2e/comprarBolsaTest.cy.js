@@ -15,11 +15,8 @@ describe('Eu como Heroi desejo realizar a compra de bolsa;',
         const pedidosPage = new PedidosPage();
 
         beforeEach(function () {
-            cy.clearCookies();
-            cy.clearAllSessionStorage();
-            cy.clearAllLocalStorage();
             cy.visit('/', { timeout: 10000 });
-            cy.fixture('credenciaisTeste').then((credencial) => {
+            cy.fixture('credenciaisTeste').then(function (credencial) {
                 this.credencial = credencial;
             });
         });
