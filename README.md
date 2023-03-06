@@ -33,7 +33,7 @@ Eu, como Herói, desejo realizar a compra de camisa vermelha;
 
 # Casos de Teste
 
-#### Identificador único: C1CT-001
+# Identificador único: C1CT-001
 
 ### Objetivo
 
@@ -111,7 +111,7 @@ Eu, como Herói, desejo realizar a compra de camisa vermelha;
 - Todas as validações devem ser concluídas conforme indicado.
 - O sistema deverá mostrar a mensagem “Thank you for your order!” ao concluir a compra.
 
-#### Identificador único: C1CT-002
+# Identificador único: C1CT-002
 
 ### Objetivo
 
@@ -201,7 +201,7 @@ Eu, como Herói, desejo realizar a compra de camisa vermelha;
 - Todas as validações devem ser concluídas conforme indicado.
 - O sistema deverá mostrar a mensagem “Thank you for your order!” ao concluir a compra.
 
-#### Identificador único: C1CT-003
+# Identificador único: C1CT-003
 
 ### Objetivo
 
@@ -287,7 +287,7 @@ Eu, como Herói, desejo realizar a compra de bolsa;
 
 # Casos de Teste
 
-#### Identificador único: C2CT-001
+# Identificador único: C2CT-001
 
 ### Objetivo
 
@@ -365,7 +365,7 @@ Eu, como Herói, desejo realizar a compra de bolsa;
 - Todas as validações devem ser concluídas conforme indicado.
 - O sistema deverá mostrar a mensagem “Thank you for your order!” ao concluir a compra.
 
-#### Identificador único: C2CT-002
+# Identificador único: C2CT-002
 
 ### Objetivo
 
@@ -455,7 +455,7 @@ Eu, como Herói, desejo realizar a compra de bolsa;
 - Todas as validações devem ser concluídas conforme indicado.
 - O sistema deverá mostrar a mensagem “Thank you for your order!” ao concluir a compra.
 
-#### Identificador único: C2CT-003
+# Identificador único: C2CT-003
 
 ### Objetivo
 
@@ -541,7 +541,7 @@ Eu, como Herói, quero ordenar os valores do menor para o maior e que seja compr
 
 # Casos de Teste
 
-#### Identificador único: C3CT-001
+# Identificador único: C3CT-001
 
 ### Objetivo
 
@@ -638,7 +638,7 @@ Eu, como Herói, quero ordenar os valores do menor para o maior e que seja compr
 - Todas as validações devem ser concluídas conforme indicado.
 - O sistema deverá mostrar a mensagem “Thank you for your order!” ao concluir a compra.
 
-#### Identificador único: C3CT-002
+# Identificador único: C3CT-002
 
 ### Objetivo
 
@@ -700,7 +700,7 @@ Eu, como Herói, quero ordenar os valores do menor para o maior e que seja compr
 - Todas as validações devem ser concluídas conforme indicado.
 - O sistema deve falhar na ordenação de produtos de valor inferior para superior com este login.
 
-#### Identificador único: C3CT-003
+# Identificador único: C3CT-003
 
 ### Objetivo
 
@@ -803,29 +803,29 @@ Para a execução automatizada destes casos de testes foi escolhido a ferramenta
 
 [`JST-qa`](https://github.com/JohnnyKamigashima/JST-qa)`/`[`cypress`](https://github.com/JohnnyKamigashima/JST-qa/tree/main/cypress)`/e2e`
 
-`comprarBolsaTest.cy`
+    `comprarBolsaTest.cy`
 
-`comprarCamisetaVermelhaTest.cy`
+    `comprarCamisetaVermelhaTest.cy`
 
-`comprarDoisItensDeMenorValor.cy`
+    `comprarDoisItensDeMenorValor.cy`
 
 #### As credenciais de login e dados de teste estão em
 
 [`JST-qa`](https://github.com/JohnnyKamigashima/JST-qa)`/`[`cypress`](https://github.com/JohnnyKamigashima/JST-qa/tree/main/cypress)`/e2e/fixtures`
 
-`credenciaisTeste.json`
+    `credenciaisTeste.json`
 
 #### As Page Objects estão em
 
 [`JST-qa`](https://github.com/JohnnyKamigashima/JST-qa)`/`[`cypress`](https://github.com/JohnnyKamigashima/JST-qa/tree/main/cypress)`/pages`
 
-`CarrinhoPage.js`
+    `CarrinhoPage.js`
 
-`LoginPage.js`
+    `LoginPage.js`
 
-`PedidosPage.js`
+    `PedidosPage.js`
 
-`ProdutoPage.js`
+    `ProdutoPage.js`
 
 Para executar estes testes é necessário ter o Node.js instalado no sistema e baixar uma cópia deste repositório.
 
@@ -833,9 +833,8 @@ Para executar estes testes é necessário ter o Node.js instalado no sistema e b
 
 Para instalar as dependências deste teste, execute da mesma pasta onde se encontra o arquivo package.json o comando:
 
-`npm i cypress`
+    `npm i cypress`
 
 Para executar os testes execute o comando do mesmo diretório:
 
-`npx cypress run`
-
+    `npx cypress run`
