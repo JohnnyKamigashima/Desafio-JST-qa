@@ -15,7 +15,7 @@ describe('Eu como Heroi desejo realizar a compra de bolsa;',
         const pedidosPage = new PedidosPage();
 
         beforeEach(function () {
-            cy.visit('/', { timeout: 10000 });
+            cy.visit('/');
             cy.fixture('credenciaisTeste').then(function (credencial) {
                 this.credencial = credencial;
             });

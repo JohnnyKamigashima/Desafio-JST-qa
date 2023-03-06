@@ -11,7 +11,7 @@ describe('Eu como Heroi desejo realizar a compra de camisa vermelha;',
     let mensagemAceitacao = 'Thank you for your order!';
 
     beforeEach(function () {
-      cy.visit('/', { timeout: 10000 });
+      cy.visit('/');
       cy.fixture('credenciaisTeste').then(function (credencial) {
         this.credencial = credencial;
       });
