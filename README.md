@@ -829,6 +829,8 @@ Para a execução automatizada destes casos de testes foi escolhido a ferramenta
 
 Para executar estes testes é necessário ter o Node.js instalado no sistema e baixar uma cópia deste repositório.
 
+Veja mais informações sobre instalação e dependências no site oficial do Cypress:
+
 [JavaScript Web Testing and Component Testing Framework | cypress.io](https://www.cypress.io/)
 
 Para instalar as dependências deste teste, execute da mesma pasta onde se encontra o arquivo package.json o comando:
