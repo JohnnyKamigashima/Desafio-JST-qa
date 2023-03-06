@@ -801,6 +801,8 @@ Eu, como Herói, quero ordenar os valores do menor para o maior e que seja compr
 
 Para a execução automatizada destes casos de testes foi escolhido a ferramenta Cypress (http://www.cypress.io). Por ser uma ferramenta já conhecida pela equipe da Justa.
 
+Este repositório está executando testes automatizados através da da esteira do GithubActions/Plugin Cypress v5 a cada push.
+
 #### As especificações de testes estão nesta pasta do GitHub:
 
 [`JST-qa`](https://github.com/JohnnyKamigashima/JST-qa)`/`[`cypress`](https://github.com/JohnnyKamigashima/JST-qa/tree/main/cypress)`/e2e`
@@ -830,6 +832,8 @@ Para a execução automatizada destes casos de testes foi escolhido a ferramenta
     `ProdutoPage.js`
 
 Para executar estes testes é necessário ter o Node.js instalado no sistema e baixar uma cópia deste repositório.
+
+Veja mais informações sobre instalação e dependências no site oficial do Cypress:
 
 [JavaScript Web Testing and Component Testing Framework | cypress.io](https://www.cypress.io/)
 
