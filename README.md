@@ -1,7 +1,3 @@
-# Desafio @ Justa QA
-
-## **Candidato:** Johnny Hikaru Kamigashima 
-
 https://www.linkedin.com/in/kamigashima/
 # Compra no eCommerce SauceDemo
 
